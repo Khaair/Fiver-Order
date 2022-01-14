@@ -1,0 +1,39 @@
+.container {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 60px auto;
+}
+
+.Header {
+  background-color: red;
+  grid-column: 1/-1;
+}
+.Banner {
+  background-color: lawngreen;
+  grid-column: 1/-1;
+}
+
+.Sidebar {
+  background-color: pink;
+  grid-column: 1/4;
+  grid-row: 3/5;
+}
+
+.Caresol {
+  background-color: green;
+  grid-column: 4/9;
+}
+.OrangeBox {
+  background-color: orange;
+  grid-column: 9/-1;
+}
+
+.CardSection {
+  background-color: rosybrown;
+  grid-column: 4/-1;
+}
+.Footer {
+  background-color: teal;
+  grid-column: 1/-1;
+}
